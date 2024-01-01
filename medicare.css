@@ -1,0 +1,456 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 100%;
+    height: 100vh;
+}
+.green-button-in-top-blue{
+    display: flex;
+}
+.stethoscope{
+    width:34px;
+    height: 33.6px;
+}
+.medi{
+    color: #3c97e8;
+}
+.care{
+    color: #69cb6a;
+}
+.medicare-logo{
+    font-size: 40px;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    font-family: 'Poppins', sans-serif;
+}
+.phone-circle,.location-circle{
+    background-color: rgba(0, 0, 0, 0.04);
+    border-radius: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60px;
+    width: 60px;
+}
+.green-phone,.green-location{
+    width:24px;
+    height: 24px;
+}
+.number,.address2{
+    margin-left: 20px;
+}
+.phone,.address{
+    display: flex;
+    align-items: center;
+    color: #666666;
+}
+.address{
+    margin-left: 100px;
+}
+.phone{
+    margin-left: 350px;
+}
+.phone,.address{
+    font-family: 'Poppins', sans-serif;
+}
+.top-white{
+    height: 180px;
+    display: flex;
+    align-items: center;
+    padding-inline: 180px;
+}
+.top-white-content{
+    display: flex;
+    height: 72px;
+}
+.top-blue{
+    background-color: #3c97e8;
+    height: 70px;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-inline: 180px;
+}
+.green-button-in-top-blue{
+    background-color: #69cb6a;
+    width: 228px;
+    height: 42px;
+    align-items: center;
+    justify-content: center;
+    border-radius: 40px;
+    font-family: 'Poppins', sans-serif;
+    margin-left: 290px;
+}
+.calendar{
+    width: 20px;
+    height: 20px;
+    margin-left: 5px;
+}
+.white-button-in-top-blue{
+    margin-left: 40px;
+}
+.white-button-in-top-blue:hover{
+    color:#69cb6a ;
+}
+.home:hover{
+    color: #69cb6a;
+}
+.green-button-in-top-blue:hover{
+    box-shadow: 0px 14px 20px -9px rgba(0, 0, 0, 0.75);
+}
+.big-photo-doctor{
+    background-image:url(doctorwa.jpg);
+    height: 800px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #FFFF;
+    position: relative;
+    z-index: 0;
+}
+.overlay{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0.2);
+    z-index: -1;
+}
+.doctor-full-name{
+    display: flex;
+    font-family: 'Poppins', sans-serif; 
+    font-size: 50px;   
+    margin-bottom: 20px;
+}
+.under-dr{
+    font-family: 'Poppins', sans-serif; 
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+.under-dr2{
+    font-family: 'Poppins', sans-serif; 
+    font-size: 24px;
+    margin-bottom: 30px;
+}
+.doctors-data{
+    width: 760px;
+    height: 700px;
+    padding-top: 200px;
+    padding-left: 180px;
+    box-sizing: content-box;
+}
+.green-button-under-dr{
+    background-color: #69cb6a;
+    width: 228px;
+    height: 52px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 100px;
+    font-family: 'Poppins', sans-serif; 
+    font-size: 12px;
+    font-weight: 700;
+    letter-spacing: 2px;
+}
+.green-button-under-dr:hover{
+    box-shadow: 0px 14px 20px -9px rgba(0, 0, 0, 0.75);
+}
+.green-button-under-dr:hover{
+    background-color: #3c97e8;
+}
+.blue-blocks{
+    background-color: #3c97e8;
+    color: #FFFF;
+    display: flex;
+    margin-inline: 180px;
+    font-family: 'Poppins', sans-serif;
+    width: 1136.6px;
+    position:relative;
+    bottom: 120px;
+}
+.medical-counceling{
+    font-weight: 700;
+}
+.under-medical-councelling2{
+    font-size: 12px;
+}
+.under-medical-councelling{
+    color: rgba(255, 255, 255, 0.8) !important;
+}
+.medical-counceling,.under-medical-councelling{
+    margin-bottom: 20px;
+}
+.first-blue-block,.second-blue-block,.third-blue-block,.fourth-blue-block{
+    padding: 40px;
+    position: relative;
+}
+.second-blue-block,.third-blue-block,.fourth-blue-block{
+    border-left: 1px solid rgba(0, 0, 0, 0.1);
+}
+.bolnicka,.beliy-doctor{
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    bottom: 40px;
+    right: 0px;
+    opacity: 0.1;
+}
+.medical-icon{
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    bottom: 40px;
+    right: -20px;
+    opacity: 0.1;
+    overflow: hidden;
+}
+.ambulance{
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    bottom: 40px;
+    right: -20px;
+    opacity: 0.1;
+    overflow: hidden;
+}
+.fourth-blue-block{
+    background-color: #3c97e8;
+    z-index: 1;
+}
+.old-doctor-photo{
+    width: 360px;
+    height: 480px;
+}
+.text-with-old-doctor{
+    margin-inline: 180px;
+    display: flex;
+    height: 480px;
+}
+.about-medicare{
+    font-size: 30px;
+    font-family: 'Poppins', sans-serif;
+    margin-bottom: 20px;
+}
+.under-about-medicare{
+    color: #666666;
+    margin-bottom: 20px;
+}
+.text-near-old-doctor{
+    font-family: 'Poppins', sans-serif;
+    margin-left: 120px;
+    width: 652px;
+}
+.two-texts-under-why-choose{
+    height: 180px;
+    display: flex;
+    border: 1px solid #e6e6e6;
+    padding: 20px;
+    font-family: 'Poppins', sans-serif;
+    color: #666666;
+    margin-top: 5px;
+    justify-content: space-between;
+}
+.first-text-under-why-choose,.second-text-under-why-choose{
+    width: 286px;
+    text-align: left;
+    height: 100px;
+}
+.why-choose-us{
+    color: #FFFFFF;
+}
+.under-about-medicare2{
+    background-color: #69cb6a;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-inline: 25px;
+    height: 50px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+}
+.under-about-medicare3{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #333333;
+    font-family: 'Poppins', sans-serif;
+    background: #fafafa;
+    font-weight: 700;
+    height: 50px;
+    padding-inline: 25px;
+    border: 1px solid #e6e6e6;
+    margin-top: 5px;
+}
+.arrow-down,.up-arrow{
+    width: 15px;
+    height: 15px;
+}
+.background-gradient{
+    background: #00b7ea;
+    background: -moz-linear-gradient(45deg, #43DDE6 0%, #9870FC 100%);
+    background: -webkit-linear-gradient(45deg, #43DDE6 0%, #9870FC 100%);
+    background: -o-linear-gradient(45deg, #43DDE6 0%, #9870FC 100%);
+    background: linear-gradient(45deg, #43DDE6 0%, #9870FC 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#43DDE6', endColorstr='#9870FC',GradientType=1 );
+    height: 210px;
+    margin-top: 120px;
+}
+.background-gradient{
+    color: #FFFFFF;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.text-inside-gradient{
+    font-size: 30px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+}
+.button-near-gradient{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid #FFFFFF;
+    width: 240px;
+    height: 42px;
+    border-radius: 100px;
+    font-family: 'Poppins', sans-serif;
+    margin-left: 25px;
+}
+.button-near-gradient:hover{
+    box-shadow: 0px 14px 20px -9px rgba(0, 0, 0, 0.75);
+    background-color: #69cb6a;
+    border:0px;
+}
+.our-services{
+    font-weight: 700;
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+.text-under-our-services{
+    color: #666666;
+    text-align: center;
+}
+.text-above-six-blocks{
+    width: 555px;
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.six-blocks-start{
+    display: flex;
+    justify-content: center;
+    margin-top: 120px;
+}
+.six-block{
+    margin-inline: 180px;
+    font-family: 'Poppins', sans-serif;
+    margin-top: 100px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.background-of-doctor-photo{
+    width: 70px;
+    height: 70px;
+    background-color: #3c97e8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 100px;
+}
+
+.white-doctor-photo{
+    width: 40px;
+    height: 40px;
+}
+.first-block-under-our-services{
+    display: flex;
+    width: 360px;
+    border: 1px solid #f2f2f2;
+    padding: 40px 20px 20px;
+    margin-bottom: 40px;
+    margin-right: 20px;
+}
+.text-of-first-block{
+    margin-left: 15px;
+    width:230px;
+}
+.qualified-doctors{
+    margin-bottom: 20px;
+    font-weight: 700;
+}
+.text-under-qualified-doctors{
+    color: #666666;
+}
+.first-block-under-our-services:hover{
+    box-shadow: 0px 9px 38px -13px rgba(0, 0, 0, 0.33);
+}
+.first-block-under-our-services:hover .background-of-doctor-photo{background-color: #69cb6a;}
+.person-with-notebook-photo{
+    background-image: url(notebook.png);
+    background-position: center center;
+    background-size: cover;
+    width: 50%;
+}
+.person-with-notebook-and-gradient{
+    display: flex;
+    width: 100%;
+    margin-top: 120px;
+    height: 690px;
+    font-family: 'Poppins', sans-serif;
+    color: #FFFFFF;
+}
+.text-near-notebook-person{
+    width: 50%;
+    background: #00b7ea;
+    background: -moz-linear-gradient(45deg, #43DDE6 0%, #9870FC 100%);
+    background: -webkit-linear-gradient(45deg, #43DDE6 0%, #9870FC 100%);
+    background: -o-linear-gradient(45deg, #43DDE6 0%, #9870FC 100%);
+    background: linear-gradient(45deg, #43DDE6 0%, #9870FC 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#43DDE6', endColorstr='#9870FC',GradientType=1 );
+    padding: 64px;
+}
+.what-makes-us-best{
+    font-weight: 700;
+    font-size: 32px;
+}
+.doctor-near-notebook-photo{
+    width: 40px;
+    height: 40px;
+}
+.about-doctor-near-notebook{
+    color: rgba(255, 255, 255, 0.7)
+}
+.doctor-name-near-notebook{
+    font-size: 18px;
+    font-weight: 600;
+}
+.doctor-near-notebook{
+    display: flex;
+    width: 300px;
+    margin-top: 80px;
+}
+.text-near-doctor-photo{
+    margin-left: 20px;
+}
+.about-doctor-near-notebook{
+    margin-top: 20px;
+}
+.doctor-photo-near-notebook{
+    margin-top: 15px;
+}
+.blocks-near-notebook{
+    display: flex;
+}
+.second-block-gradinet{
+    margin-left: 25px;
+}
