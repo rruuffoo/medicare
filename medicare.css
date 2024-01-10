@@ -99,12 +99,14 @@ body{
 }
 .white-button-in-top-blue:hover{
     color:#69cb6a ;
+    transition: 0.5s;
 }
 .home:hover{
     color: #69cb6a;
 }
 .green-button-in-top-blue:hover{
     box-shadow: 0px 14px 20px -9px rgba(0, 0, 0, 0.75);
+    transition: 0.4s;
 }
 .big-photo-doctor{
     background-image:url(doctorwa.jpg);
@@ -162,6 +164,7 @@ body{
 }
 .green-button-under-dr:hover{
     box-shadow: 0px 14px 20px -9px rgba(0, 0, 0, 0.75);
+    transition: 0.5s;
 }
 .green-button-under-dr:hover{
     background-color: #3c97e8;
@@ -329,6 +332,7 @@ body{
     box-shadow: 0px 14px 20px -9px rgba(0, 0, 0, 0.75);
     background-color: #69cb6a;
     border:0px;
+    transition: 0.4s;
 }
 .our-services{
     font-weight: 700;
@@ -393,6 +397,7 @@ body{
 }
 .first-block-under-our-services:hover{
     box-shadow: 0px 9px 38px -13px rgba(0, 0, 0, 0.33);
+    transition: 0.5s;
 }
 .first-block-under-our-services:hover .background-of-doctor-photo{background-color: #69cb6a;}
 .person-with-notebook-photo{
@@ -779,6 +784,7 @@ body{
 }
 .green-button-gradient:hover{
     background-color: #7cd27d;
+    transition: 0.5s;
 }
 .div-with-two-persons{
     background-color: whitesmoke;
@@ -963,7 +969,7 @@ body{
     display: flex;
     flex-direction: column;
 }
-textarea{
+.textarea-for-desktop{
     width: 263px;
     height: 91px;
     background-color: rgba(0, 0, 0, 0.15);
@@ -986,6 +992,7 @@ textarea{
 }
 .blue-button-end:hover{
     background-color: #69cb6a;
+    transition: 0.5s;
 }
 .end-of-the-site-part2{
     font-family: 'Poppins', sans-serif;
@@ -999,6 +1006,8 @@ textarea{
     flex-direction: column;
     justify-content: center;
 }
-span{
+.gray-text-for-desktop{
     color: rgba(255, 255, 255, 0.5); 
 }
+
+
